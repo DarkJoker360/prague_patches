@@ -1,7 +1,7 @@
 From 12caad9ab10e9438ffaa2dca7cbce8bf26a7e4a5 Mon Sep 17 00:00:00 2001
 From: phhusson <phh@phh.me>
 Date: Mon, 7 Jan 2019 21:30:07 +0100
-Subject: [PATCH 6/6] property-matching RROs: allow to prefix the value with +
+Subject: [PATCH 6/7] property-matching RROs: allow to prefix the value with +
  to do glob match instead of exact match
 
 Change-Id: I7051f64d70e8e73a0debfaa67efd08545eb2cb4a

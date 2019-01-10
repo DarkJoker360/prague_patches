@@ -1,7 +1,7 @@
 From c028f42520028bfccf1c6ddf577a2da99575960a Mon Sep 17 00:00:00 2001
 From: phhusson <phh@phh.me>
 Date: Mon, 7 Jan 2019 21:28:18 +0100
-Subject: [PATCH 4/6] Also scan /system/overlay
+Subject: [PATCH 4/7] Also scan /system/overlay
 
 Change-Id: Id08ce236a8041d948114ffbe433da9ce70959d9c
 ---

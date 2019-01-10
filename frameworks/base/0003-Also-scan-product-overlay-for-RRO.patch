@@ -1,7 +1,7 @@
 From ba3509867f1f07df6b2f55c78e8477d6f8733fdd Mon Sep 17 00:00:00 2001
 From: phhusson <phh@phh.me>
 Date: Mon, 7 Jan 2019 21:27:45 +0100
-Subject: [PATCH 3/6] Also scan /product/overlay for RRO
+Subject: [PATCH 3/7] Also scan /product/overlay for RRO
 
 Change-Id: If140677eca3b906986c148e619def0ab83af983a
 ---

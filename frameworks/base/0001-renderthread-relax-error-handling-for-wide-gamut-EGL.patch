@@ -1,7 +1,7 @@
 From c0b745aeb2f10913ee67293f99bbec6e1e15cf53 Mon Sep 17 00:00:00 2001
 From: Rob Herring <robh@kernel.org>
 Date: Mon, 7 Jan 2019 21:24:51 +0100
-Subject: [PATCH 1/6] renderthread: relax error handling for wide gamut EGL configs
+Subject: [PATCH 1/7] renderthread: relax error handling for wide gamut EGL configs
 
 It is valid to advertise EGL_EXT_pixel_format_float, but not have a
 the requested EGL config. Instead of aborting, fallback to the default
