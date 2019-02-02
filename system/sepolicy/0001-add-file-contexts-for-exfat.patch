@@ -1,18 +1,18 @@
-From ab7f35b7d685997023258f13d0ad982489319ac7 Mon Sep 17 00:00:00 2001
+From 28065d15d18b8773c8557849bd70078c51ca2ec7 Mon Sep 17 00:00:00 2001
 From: rcstar6696 <rcstar6696@gmail.com>
-Date: Mon, 7 Jan 2019 21:56:52 +0100
+Date: Fri, 1 Feb 2019 19:42:48 +0000
 Subject: [PATCH] add file contexts for exfat
 
-Change-Id: I6dd45546182c807cd445dc7459f54ac08f55c21f
+Change-Id: I6831c8a633fa9051f3a756c135635bb1cb835c60
 ---
- private/file_contexts | 3 +++
- 1 file changed, 3 insertions(+)
+ private/file_contexts | 2 ++
+ 1 file changed, 2 insertions(+)
 
 diff --git a/private/file_contexts b/private/file_contexts
-index 02e9fd74..0df07fca 100644
+index 02e9fd7..b56a8ba 100644
 --- a/private/file_contexts
 +++ b/private/file_contexts
-@@ -183,6 +183,9 @@
+@@ -183,6 +183,8 @@
  /system/bin/sload_f2fs	--	u:object_r:e2fs_exec:s0
  /system/bin/make_f2fs	--	u:object_r:e2fs_exec:s0
  /system/bin/fsck_msdos	--	u:object_r:fsck_exec:s0
@@ -22,5 +22,5 @@ index 02e9fd74..0df07fca 100644
  /system/bin/toolbox	--	u:object_r:toolbox_exec:s0
  /system/bin/toybox	--	u:object_r:toolbox_exec:s0
 -- 
-2.19.1
+2.7.4
 
