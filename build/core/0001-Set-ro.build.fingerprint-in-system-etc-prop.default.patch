@@ -5,13 +5,13 @@ Subject: [PATCH 1/2] Set ro.build.fingerprint in system/etc/prop.default
 
 Change-Id: I51ca98c608e30b134640c42ea5d2adf8364f9c52
 ---
- core/Makefile | 1 +
+ Makefile | 1 +
  1 file changed, 1 insertion(+)
 
-diff --git a/core/Makefile b/core/Makefile
+diff --git a/Makefile b/Makefile
 index 9a16e83d4..22e374eb8 100644
---- a/core/Makefile
-+++ b/core/Makefile
+--- a/Makefile
++++ b/Makefile
 @@ -116,6 +116,7 @@ $(INSTALLED_DEFAULT_PROP_TARGET): $(intermediate_system_build_prop)
  	$(hide) echo ro.bootimage.build.date=`$(DATE_FROM_FILE)`>>$@
  	$(hide) echo ro.bootimage.build.date.utc=`$(DATE_FROM_FILE) +%s`>>$@
